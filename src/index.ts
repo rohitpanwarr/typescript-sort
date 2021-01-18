@@ -16,3 +16,13 @@ const charactersCollection = new CharactersCollection('XaarrAB');
 sorter = new Sorter(charactersCollection);
 sorter.sort();
 console.log(charactersCollection.data);
+
+// Linked List Sorting
+const linkedList = new LinkedList();
+linkedList.add(4);
+linkedList.add(-10);
+linkedList.add(-4);
+linkedList.add(20);
+sorter = new Sorter(linkedList);
+sorter.sort();
+linkedList.print();
